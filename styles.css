@@ -37,6 +37,10 @@ textarea {
   top: 5rem;
 }
 
+button:hover {
+  background-color: rgb(200, 200, 200);
+}
+
 h3 {
   margin-top: 1rem;
 }
@@ -45,4 +49,19 @@ table {
   border: 1px solid black;
   margin: 0 auto;
   width: 600px;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: rgb(200, 200, 200);
+}
+
+td:first-child,
+th:first-child {
+  border-right: 1px solid black;
+  width: 25%;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(238, 238, 238);
 }
