@@ -36,3 +36,13 @@ textarea {
 .entry-button {
   top: 5rem;
 }
+
+h3 {
+  margin-top: 1rem;
+}
+
+table {
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 600px;
+}

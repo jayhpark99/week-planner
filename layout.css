@@ -1,8 +1,6 @@
-
 .weekly-button {
   height: 3rem;
   width: 5.5rem;
-  font-size: ;
 }
 
 .hidden {
@@ -10,7 +8,7 @@
 }
 
 .container {
-  width: 100%;
+  width: 800px;
   margin: 0 auto;
   height: 100vh;
 }
@@ -41,4 +39,8 @@
 
 .justify-space-evenly {
   justify-content: space-evenly;
+}
+
+.justify-center {
+  justify-content: center;
 }
