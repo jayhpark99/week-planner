@@ -1,6 +1,12 @@
+body,
+button {
+  font-family: 'Zen Kurenaido', sans-serif;
+}
+
 input,
 textarea,
-button {
+button,
+select {
   margin: 6px 3px;
 }
 
@@ -19,7 +25,6 @@ textarea {
   border: 1px solid black;
   padding: 1rem 2rem 2rem;
   background-color: white;
-  position: relative;
   top: 5rem;
 }
 
@@ -29,6 +34,5 @@ textarea {
 }
 
 .entry-button {
-  position: relative;
   top: 5rem;
 }

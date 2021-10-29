@@ -1,4 +1,10 @@
 
+.weekly-button {
+  height: 3rem;
+  width: 5.5rem;
+  font-size: ;
+}
+
 .hidden {
   display: none !important;
 }
@@ -31,4 +37,8 @@
 
 .left {
   text-align: left;
+}
+
+.justify-space-evenly {
+  justify-content: space-evenly;
 }

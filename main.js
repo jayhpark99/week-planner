@@ -6,7 +6,7 @@ var $addEntryButton = document.querySelector('.entry-button');
 var $modal = document.querySelector('.modal');
 var $container = document.querySelector('.container');
 var $submitButton = document.querySelector('[type="submit"]');
-var $date = document.querySelector('[type="date"]');
+var $date = document.querySelector('select');
 var $time = document.querySelector('[type="time"]');
 var $description = document.querySelector('textarea');
 var $form = document.querySelector('form');
