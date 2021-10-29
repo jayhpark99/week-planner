@@ -10,7 +10,6 @@ var $date = document.querySelector('[type="date"]');
 var $time = document.querySelector('[type="time"]');
 var $description = document.querySelector('textarea');
 var $form = document.querySelector('form');
-
 //
 $addEntryButton.addEventListener('click', modalOn);
 //
@@ -33,6 +32,5 @@ function submitHandler(event) {
   $container.className = 'container';
   $modal.className = 'modal center hidden';
   $addEntryButton.className = 'entry-button';
-
 }
 //
