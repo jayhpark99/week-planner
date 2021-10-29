@@ -10,7 +10,7 @@
 </head>
 <body>
   <div class="container background">
-    <div class="row weekly-planner-h1">
+    <div class="row center">
       <div class="column-full"><h2>Weekly Planner</h2></div>
     </div>
     <div class="row center">
@@ -18,19 +18,21 @@
         <button class="entry-button">Add Entry</button>
       </div>
     </div>
-        <div class="modal off">
-          <div><h1>Add Entry</h1></div>
+        <div class="modal off center">
           <div>
-            <input type="date">
-            <input type="time">
+            <div><h1 class="weekly-planner-h1">Add Entry</h1></div>
+            <div class="left">
+              <input type="date">
+              <input type="time">
+            </div>
+            <div>
+              <textarea placeholder="Description" rows="5"></textarea>
+            </div>
+            <div class="right">
+              <button type="submit">Submit</button>
+            </div>
           </div>
-          <div>
-            <textarea placeholder="Description" rows="5"></textarea>
-          </div>
-          <div>
-            <button type="submit">Submit</button>
-          </div>
-    </div>
+        </div>
   </div>
 
 

@@ -1,4 +1,21 @@
+input,
+textarea,
+button {
+  margin: 6px 3px;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+}
 
 .weekly-planner-h1 {
-  text-align: center;
+  margin-top: auto;
+}
+
+.modal {
+  width: 40%;
+  margin: auto;
+  border: 1px solid black;
+  padding: 1rem 2rem 2rem;
 }

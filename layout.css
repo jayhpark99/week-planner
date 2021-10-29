@@ -1,5 +1,6 @@
+
 .container {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -17,4 +18,12 @@
 
 .center {
   text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
 }
