@@ -3,7 +3,6 @@
 
 //
 var $addEntryButton = document.querySelector('.entry-button');
-var $modal = document.querySelector('.background');
 var $container = document.querySelector('.container');
 var $submitButton = document.querySelector('[type="submit"]');
 var $date = document.querySelector('select');
@@ -19,7 +18,7 @@ $addEntryButton.addEventListener('click', modalOn);
 //
 function modalOn(event) {
 
-  $modal.className = 'background';
+  $form.className = 'background';
   $addEntryButton.className = 'entry-button hidden';
   $table.className = 'column-full scheduled-events hidden';
   $weekDayButtons.className = 'column-full justify-space-evenly weekdays hidden';
@@ -38,10 +37,10 @@ function submitHandler(event) {
   var renderedObject = renderTable(dataObj);
   $tbody.prepend(renderedObject);
   data.entries.unshift(dataObj);
-  $container.className = 'container';
-  $modal.className = 'modal center hidden';
+  $form.className = 'modal center hidden';
   $addEntryButton.className = 'entry-button';
-
+  $table.className = 'column-full scheduled-events';
+  $weekDayButtons.className = 'column-full justify-space-evenly weekdays';
 }
 //
 function renderTable(entry) {

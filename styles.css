@@ -26,6 +26,7 @@ textarea {
   padding: 1rem 2rem 2rem;
   background-color: white;
   top: 5rem;
+  position: relative;
 }
 
 .background {
